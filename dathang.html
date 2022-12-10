@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dathang</title>
+</head>
+
+<body>
+	<!-- chi dinh file de ghi -->	 
+  Filename to Save As:
+  <input id="inputFileNameToSaveAs"></input>
+  <button onClick="saveTextAsFile()">Save Text to File</button>
+ 	 <!-- chi dinh file de doc-->	 
+  Select a File to Load:
+  <input type="file" id="fileToLoad">
+  <button onClick="loadFileAsText()">Load Selected File</button>
+	<table width="497" border="1">
+  <tr>
+    <td colspan="2"><div align="center">&#272;&#7863;t h&agrave;ng </div></td>
+  </tr>
+  <tr>
+    <td width="81">H&#7885; v&agrave; t&ecirc;n </td>
+    <td width="400">
+      <form id="form1" name="form1" method="post" action="">
+      <label> <input type="text" name="textfield2" width="800" /></label>
+    </form>
+    </td>
+  </tr>
+  <tr>
+    <td>&#272;&#7883;a ch&#7881; </td>
+    <td><form id="form2" name="form2" method="post" action="">
+      <label>
+        <input type="text" name="textfield2" width="900" />
+        </label>
+    </form>
+    </td>
+  </tr>
+  <tr>
+    <td>M&#7863;t h&agrave;ng </td>
+    <td><form id="form3" name="form3" method="post" action="">
+      <label>
+		  &nbsp; &nbsp;Mặt hàng:&nbsp;&nbsp;
+        <select name="mathang" id="mathang" width="150">
+			
+  <option value="Cơm sườn">Cơm sườn</option>
+	<option value="Cơm sườn bì">Cơm sườn bì</option>
+	<option value="Cơm sườn trứng">Cơm sườn trứng</option>
+    <option value="Cơm sườn chả">Cơm sườn chả</option>
+    <option value="Cơm sườn bì chả">Cơm sườn bì chả </option>
+    <option value="Cơm gà">Cơm gà</option>
+    <option value="Cơm thịt kho tiêu">Cơm thịt kho tiêu</option>
+	<option value="Cơm thêm">Cơm thêm</option>
+	<option value="Sữa đậu nành">Sữa đậu nành</option>
+    
+</select><br />
+        </select>
+        </label>
+    </form>
+    </td>
+  </tr>
+  <tr>
+    <td>S&#7889; l&#432;&#7907;ng </td>
+    <td><form id="form4" name="form4" method="post" action="">
+      <label>
+        <input type="number" name="textfield3" width="400" />
+        </label>
+    </form>
+    </td>
+  </tr>
+  <tr>
+    <td>Ng&agrave;y &#273;&#7863;t </td>
+    <td><form id="form5" name="form5" method="post" action="">
+      <label>
+        
+        </label>
+      <label>
+      <input type="date" name="textfield4" width="400" />
+      </label>
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
